@@ -1,0 +1,294 @@
+\ProvidesPackage{EthischeFragenBeimAutomatisiertenFahren}
+
+%% packages
+\usepackage[latin1]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[pdftex]{color,graphicx}
+\usepackage[german,ngerman]{babel}
+\usepackage[hypertexnames=false]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{amssymb}
+\usepackage{eurosym}
+\usepackage{amsmath}
+\usepackage{ifthen}
+\usepackage{float}
+\usepackage{footmisc}
+\usepackage{verbatimbox}
+\usepackage{graphicx}
+\usepackage[pages=some]{background} % Draft Wasserzeichen mit Option pages=all sonst pages=some
+%%\usepackage[rflt]{floatflt}
+%%\usepackage{tabularx}
+\usepackage{subfig}
+\usepackage{tikz}
+\usetikzlibrary{backgrounds}
+\usetikzlibrary{positioning,shapes,shapes.geometric,shadows,arrows}
+\usetikzlibrary{datavisualization}
+\usetikzlibrary{datavisualization.formats.functions}
+\usepackage{indentfirst}
+\usepackage{xcolor}
+\usepackage{blindtext} 
+\usepackage{framed} 
+\colorlet{shadecolor}{lightgray!30} 
+\usepackage{alltt}
+\usepackage{enumitem, kantlipsum}
+\usepackage{etoolbox}
+%%\pretocmd\section{\cleardoublepage}{}%
+%%  {\errmessage{Patching \noexpand\section failed}}
+
+%%\renewcommand{\ttdefault}{txtt}
+%%\usepackage{etoolbox}
+%%\AtBeginEnvironment{alltt}{\setlength{\topsep}{0pt}}
+
+\pgfkeys{/pgf/number format/.cd,1000 sep={.}}
+
+\usepackage{array}
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+
+\usepackage{chngcntr}
+\counterwithin{figure}{section}
+
+\setcounter{secnumdepth}{4} 
+\setcounter{tocdepth}{4} 
+
+%% layout
+\oddsidemargin 0cm
+\evensidemargin 1cm
+\textwidth 15cm
+\topmargin -1.25cm
+\textheight 24.37cm
+
+\linespread{1.1}
+
+\setlength{\footnotesep}{0.4cm}
+\interfootnotelinepenalty=10000
+
+%% tikz
+\tikzstyle{abstract}=[rectangle, draw=black, 
+        align=flush center, anchor=north, text width=5cm]
+\tikzstyle{comment}=[rectangle, draw=black, rounded corners,
+        text centered, anchor=north, text width=3cm]
+\tikzstyle{arrow}=[->, >=open triangle 60, thick]
+\tikzstyle{line}=[-, thick]
+\tikzset{
+	abstractClass node/.style={
+  		rectangle split, rectangle split parts=1,
+    		rectangle split,
+		text width=6cm,
+		text=white,
+		draw=cyan!60,
+		align=center,
+    		thick,
+		rounded corners,
+    		rectangle split part fill={cyan!60, cyan},
+		font={\small\itshape}
+	},
+	abstractClassWide node/.style={
+  		rectangle split, rectangle split parts=1,
+    		rectangle split,
+		text width=8cm,
+		text=white,
+		draw=cyan!60,
+		align=center,
+    		thick,
+		rounded corners,
+    		rectangle split part fill={cyan!60, cyan},
+		font={\small\itshape}
+	},
+	class node/.style={
+  		rectangle split, rectangle split parts=1,
+    		rectangle split,
+		text width=6cm,
+		text=white,
+		draw=cyan,
+		align=center,
+    		thick,
+		rounded corners,
+    		rectangle split part fill={cyan, cyan},
+		font=\small
+	},
+	classNarrow node/.style={
+  		rectangle split, rectangle split parts=1,
+    		rectangle split,
+		text width=4cm,
+		text=white,
+		draw=cyan,
+		align=center,
+    		thick,
+		rounded corners,
+    		rectangle split part fill={cyan, cyan},
+		font=\small
+	},
+	classWide node/.style={
+  		rectangle split, rectangle split parts=1,
+    		rectangle split,
+		text width=8cm,
+		text=white,
+		draw=cyan,
+		align=center,
+    		thick,
+		rounded corners,
+    		rectangle split part fill={cyan, cyan},
+		font=\small
+	},
+	classUltraWide node/.style={
+  		rectangle split, rectangle split parts=1,
+    		rectangle split,
+		text width=10cm,
+		text=white,
+		draw=cyan,
+		align=center,
+    		thick,
+		rounded corners,
+    		rectangle split part fill={cyan, cyan},
+		font=\small
+	}
+}     
+
+%% commands
+\newcommand{\frontmatter}{
+	\thispagestyle{empty}
+ 	\fancyhf{}
+	\lhead{\rightmark}
+	\cfoot{\thepage}
+	\pagenumbering{roman}
+}
+
+\newcommand{\mainmatter}{
+	%\pagestyle{empty}
+	\fancyhf{}
+	\lhead{\rightmark}
+	\cfoot{\thepage}
+  	\pagenumbering{arabic}
+}
+
+\newcommand{\subsubsubsection}[1]{%
+\vskip 0.25cm%
+\noindent\textbf{#1}
+}
+
+\newcommand{\isdebug}{%
+  \debug{true}%
+}
+
+\newcommand{\ifdebug}[1]{
+  \ifthenelse{\equal{\Debug}{true}}{#1}{}%
+}
+
+\newcommand{\property}[1]{
+\begin{shaded}
+\noindent \texttt{#1}
+\end{shaded}
+}
+
+\newcommand{\method}[1]{
+\begin{shaded}
+\noindent \texttt{#1}
+\end{shaded}
+}
+  
+%% Abkürzungen
+\newcommand \FUiH {FernUniversität in Hagen}
+\newcommand \kwA {keine weiteren Angaben}
+\newcommand \idR {i.\,d.\,R.}
+\newcommand \uU {u.\,U.}
+\newcommand \ua {u.\,a.}
+\newcommand \zB {z.\,B.}
+\newcommand \iW {i.\,W.}
+\newcommand \va {v.\,a.}
+\newcommand \Stand {Stand \mbox{Dezember 2018}}
+\newcommand \true {\texttt{true}}
+\newcommand \false {\texttt{false}}
+\newcommand \di {Dependency Injection}
+
+\newcommand \tabProperties[4] {
+\begin{figure}[H]
+\centering
+\caption[#1]{#2}
+\label{figure:#3}
+\colorbox{lightgray!30}{
+\small
+\resizebox{14cm}{!}{
+\begin{tabular}{L{7.5cm} | L{1.5cm} | L{8cm}}
+& \textbf{Typ} & \textbf{Beschreibung}  \\ 
+\hline
+#4
+\end{tabular}
+}
+}
+\end{figure} 
+}
+
+\newcommand \tabPropertiesVariableTypeWidth[5] {
+\begin{figure}[H]
+\centering
+\caption[#1]{#2}
+\label{figure:#3}
+\colorbox{lightgray!30}{
+\small
+\resizebox{14cm}{!}{
+\begin{tabular}{L{7.5cm} | L{#4cm} | L{8cm}}
+& \textbf{Typ} & \textbf{Beschreibung}  \\ 
+\hline
+#5
+\end{tabular}
+}
+}
+\end{figure} 
+}
+
+\newcommand \tabRow[3] {
+\hline
+\texttt{#1} & \texttt{#2} & #3\\
+}
+
+\newcommand \code[1] {
+\texttt{#1}\\*
+}
+
+\newcommand \tabLibraries[4] {
+\begin{figure}[H]
+\centering
+\caption[#1]{#2}
+\label{figure:#3}
+\colorbox{lightgray!30}{
+\small
+\resizebox{14cm}{!}{
+\begin{tabular}{L{6cm} | L{2cm} | L{3cm} | L{8cm}}
+& \textbf{Version} & \textbf{Anbieter} & \textbf{Beschreibung}  \\ 
+\hline
+#4
+\end{tabular}
+}
+}
+\end{figure} 
+}
+
+\newcommand \tabLibrariesRow[4] {
+\hline
+#1 & #2 & #3 & #4\\
+}
+
+\newcommand \tabCodeStructure[4] {
+\begin{figure}[H]
+\centering
+\caption[#1]{#2}
+\label{figure:#3}
+\colorbox{lightgray!30}{
+\small
+\resizebox{14cm}{!}{
+\begin{tabular}{L{6.5cm} | L{13cm}}
+\textbf{Datei/Verzeichnis} & \textbf{Beschreibung}  \\ 
+\hline
+#4
+\end{tabular}
+}
+}
+\end{figure} 
+}
+
+\newcommand \tabCodeStructureRow[2] {
+\hline
+#1 & #2\\
+}
