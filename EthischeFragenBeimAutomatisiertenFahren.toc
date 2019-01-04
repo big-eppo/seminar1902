@@ -1,4 +1,25 @@
-\select@language {ngerman}
-\contentsline {section}{\numberline {1}Hauptteil}{1}{section.3}
-\contentsline {section}{\numberline {2}Schlussbemerkung}{7}{section.4}
-\contentsline {section}{Literatur}{9}{section*.5}
+\babel@toc {ngerman}{}
+\contentsline {section}{\numberline {1}Einleitung}{i}{section.1}% 
+\contentsline {section}{\numberline {2}Vorstellung und Diskussion der ethischen Regeln}{1}{section.3}% 
+\contentsline {subsection}{\numberline {2.1}Prim\IeC {\"a}rziel Sicherheit}{1}{subsection.4}% 
+\contentsline {subsection}{\numberline {2.2}Vorrang des Schutzes von Menschen}{1}{subsection.5}% 
+\contentsline {subsection}{\numberline {2.3}Gew\IeC {\"a}hrleistungsverantwortung der \IeC {\"o}ffentlichen Hand}{2}{subsection.6}% 
+\contentsline {subsection}{\numberline {2.4}Entscheidungsfreiheit des Einzelnen}{2}{subsection.7}% 
+\contentsline {subsection}{\numberline {2.5}Unfallvermeidung}{2}{subsection.8}% 
+\contentsline {subsection}{\numberline {2.6}Abw\IeC {\"a}gungen zur Einsatzpflicht}{2}{subsection.9}% 
+\contentsline {subsection}{\numberline {2.7}Priorit\IeC {\"a}t des Schutzes menschlichen Lebens}{3}{subsection.10}% 
+\contentsline {subsection}{\numberline {2.8}Acht}{3}{subsection.11}% 
+\contentsline {subsection}{\numberline {2.9}Neun}{3}{subsection.12}% 
+\contentsline {subsection}{\numberline {2.10}Zehn}{4}{subsection.13}% 
+\contentsline {subsection}{\numberline {2.11}Elf}{4}{subsection.14}% 
+\contentsline {subsection}{\numberline {2.12}Zw\IeC {\"o}lf}{4}{subsection.15}% 
+\contentsline {subsection}{\numberline {2.13}Dreizehn}{4}{subsection.16}% 
+\contentsline {subsection}{\numberline {2.14}Vierzehn}{5}{subsection.17}% 
+\contentsline {subsection}{\numberline {2.15}F\IeC {\"u}nfzehn}{5}{subsection.18}% 
+\contentsline {subsection}{\numberline {2.16}Sechzehn}{5}{subsection.19}% 
+\contentsline {subsection}{\numberline {2.17}Siebzehn}{5}{subsection.20}% 
+\contentsline {subsection}{\numberline {2.18}Achtzehn}{6}{subsection.21}% 
+\contentsline {subsection}{\numberline {2.19}Neunzehn}{6}{subsection.22}% 
+\contentsline {subsection}{\numberline {2.20}Fahrausbildung}{6}{subsection.23}% 
+\contentsline {section}{\numberline {3}Schlussbemerkung}{7}{section.24}% 
+\contentsline {section}{Literatur}{9}{section*.25}% 
