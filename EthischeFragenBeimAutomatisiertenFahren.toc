@@ -2,24 +2,24 @@
 \contentsline {section}{\numberline {1}Einleitung}{i}{section.1}% 
 \contentsline {section}{\numberline {2}Vorstellung und Diskussion der ethischen Regeln}{1}{section.3}% 
 \contentsline {subsection}{\numberline {2.1}Prim\IeC {\"a}rziel Sicherheit}{1}{subsection.4}% 
-\contentsline {subsection}{\numberline {2.2}Vorrang des Schutzes von Menschen}{1}{subsection.5}% 
+\contentsline {subsection}{\numberline {2.2}Vorrang des Schutzes von Menschen}{2}{subsection.5}% 
 \contentsline {subsection}{\numberline {2.3}Gew\IeC {\"a}hrleistungsverantwortung der \IeC {\"o}ffentlichen Hand}{2}{subsection.6}% 
 \contentsline {subsection}{\numberline {2.4}Entscheidungsfreiheit des Einzelnen}{2}{subsection.7}% 
-\contentsline {subsection}{\numberline {2.5}Unfallvermeidung}{2}{subsection.8}% 
-\contentsline {subsection}{\numberline {2.6}Abw\IeC {\"a}gungen zur Einsatzpflicht}{2}{subsection.9}% 
+\contentsline {subsection}{\numberline {2.5}Unfallvermeidung}{3}{subsection.8}% 
+\contentsline {subsection}{\numberline {2.6}Abw\IeC {\"a}gungen zur Einsatzpflicht}{3}{subsection.9}% 
 \contentsline {subsection}{\numberline {2.7}Priorit\IeC {\"a}t des Schutzes menschlichen Lebens}{3}{subsection.10}% 
-\contentsline {subsection}{\numberline {2.8}Nicht-Normierbarkeit dilemmatischer Entscheidungen}{3}{subsection.11}% 
-\contentsline {subsection}{\numberline {2.9}Verbot der Qualifizierung m\IeC {\"o}glicher Opfer nach pers\IeC {\"o}nlichen Merkmalen}{3}{subsection.12}% 
-\contentsline {subsection}{\numberline {2.10}Verschiebung der Verantwortung auf die Hersteller}{4}{subsection.13}% 
-\contentsline {subsection}{\numberline {2.11}Produkthaftung}{4}{subsection.14}% 
-\contentsline {subsection}{\numberline {2.12}Aufkl\IeC {\"a}rung der \IeC {\"O}ffentlichkeit}{4}{subsection.15}% 
-\contentsline {subsection}{\numberline {2.13}Ausschluss der totalen \IeC {\"U}berwachung}{4}{subsection.16}% 
-\contentsline {subsection}{\numberline {2.14}Erhalt des Vertrauens in den Stra\IeC {\ss }enverkehr}{5}{subsection.17}% 
-\contentsline {subsection}{\numberline {2.15}Datenhoheit der Verkehrsteilnehmer}{5}{subsection.18}% 
-\contentsline {subsection}{\numberline {2.16}Internationale Standardisierung der Protokoll- und Dokumentationspflichten}{5}{subsection.19}% 
-\contentsline {subsection}{\numberline {2.17}Vermeidung abrupter \IeC {\"U}bergabevorg\IeC {\"a}nge}{5}{subsection.20}% 
-\contentsline {subsection}{\numberline {2.18}Aufbau eines Szenarienkatalogs}{6}{subsection.21}% 
-\contentsline {subsection}{\numberline {2.19}Autonomes \IeC {\"U}berf\IeC {\"u}hren in sicheren Grundzustand in Notsituationen}{6}{subsection.22}% 
-\contentsline {subsection}{\numberline {2.20}Fahrausbildung}{6}{subsection.23}% 
-\contentsline {section}{\numberline {3}Schlussbemerkung}{7}{section.24}% 
-\contentsline {section}{Literatur}{9}{section*.25}% 
+\contentsline {subsection}{\numberline {2.8}Nicht-Normierbarkeit dilemmatischer Entscheidungen}{4}{subsection.11}% 
+\contentsline {subsection}{\numberline {2.9}Verbot der Qualifizierung m\IeC {\"o}glicher Opfer nach pers\IeC {\"o}nlichen Merkmalen}{5}{subsection.12}% 
+\contentsline {subsection}{\numberline {2.10}Verschiebung der Verantwortung auf die Hersteller}{5}{subsection.13}% 
+\contentsline {subsection}{\numberline {2.11}Produkthaftung}{5}{subsection.14}% 
+\contentsline {subsection}{\numberline {2.12}Aufkl\IeC {\"a}rung der \IeC {\"O}ffentlichkeit}{6}{subsection.15}% 
+\contentsline {subsection}{\numberline {2.13}Ausschluss der totalen \IeC {\"U}berwachung}{6}{subsection.16}% 
+\contentsline {subsection}{\numberline {2.14}Erhalt des Vertrauens in den Stra\IeC {\ss }enverkehr}{6}{subsection.17}% 
+\contentsline {subsection}{\numberline {2.15}Datenhoheit der Verkehrsteilnehmer}{6}{subsection.18}% 
+\contentsline {subsection}{\numberline {2.16}Internationale Standardisierung der Protokoll- und Dokumentationspflichten}{7}{subsection.19}% 
+\contentsline {subsection}{\numberline {2.17}Vermeidung abrupter \IeC {\"U}bergabevorg\IeC {\"a}nge}{7}{subsection.20}% 
+\contentsline {subsection}{\numberline {2.18}Aufbau eines Szenarienkatalogs}{7}{subsection.21}% 
+\contentsline {subsection}{\numberline {2.19}Autonomes \IeC {\"U}berf\IeC {\"u}hren in sicheren Grundzustand in Notsituationen}{8}{subsection.22}% 
+\contentsline {subsection}{\numberline {2.20}Fahrausbildung}{8}{subsection.23}% 
+\contentsline {section}{\numberline {3}Schlussbemerkung}{9}{section.24}% 
+\contentsline {section}{Literatur}{11}{section*.25}% 
