@@ -15,11 +15,11 @@
 \contentsline {subsection}{\numberline {2.12}Aufkl\IeC {\"a}rung der \IeC {\"O}ffentlichkeit}{6}{subsection.15}% 
 \contentsline {subsection}{\numberline {2.13}Ausschluss der totalen \IeC {\"U}berwachung}{6}{subsection.16}% 
 \contentsline {subsection}{\numberline {2.14}Erhalt des Vertrauens in den Stra\IeC {\ss }enverkehr}{6}{subsection.17}% 
-\contentsline {subsection}{\numberline {2.15}Datenhoheit der Verkehrsteilnehmer}{6}{subsection.18}% 
-\contentsline {subsection}{\numberline {2.16}Internationale Standardisierung der Protokoll- und Dokumentationspflichten}{7}{subsection.19}% 
-\contentsline {subsection}{\numberline {2.17}Vermeidung abrupter \IeC {\"U}bergabevorg\IeC {\"a}nge}{7}{subsection.20}% 
-\contentsline {subsection}{\numberline {2.18}Aufbau eines Szenarienkatalogs}{7}{subsection.21}% 
-\contentsline {subsection}{\numberline {2.19}Autonomes \IeC {\"U}berf\IeC {\"u}hren in sicheren Grundzustand in Notsituationen}{8}{subsection.22}% 
-\contentsline {subsection}{\numberline {2.20}Fahrausbildung}{8}{subsection.23}% 
-\contentsline {section}{\numberline {3}Schlussbemerkung}{9}{section.24}% 
-\contentsline {section}{Literatur}{11}{section*.25}% 
+\contentsline {subsection}{\numberline {2.15}Datenhoheit der Verkehrsteilnehmer}{6}{subsection.19}% 
+\contentsline {subsection}{\numberline {2.16}Internationale Standardisierung der Protokoll- und Dokumentationspflichten}{7}{subsection.20}% 
+\contentsline {subsection}{\numberline {2.17}Vermeidung abrupter \IeC {\"U}bergabevorg\IeC {\"a}nge}{7}{subsection.21}% 
+\contentsline {subsection}{\numberline {2.18}Aufbau eines Szenarienkatalogs}{8}{subsection.23}% 
+\contentsline {subsection}{\numberline {2.19}Autonomes \IeC {\"U}berf\IeC {\"u}hren in sicheren Grundzustand in Notsituationen}{8}{subsection.24}% 
+\contentsline {subsection}{\numberline {2.20}Fahrausbildung}{8}{subsection.25}% 
+\contentsline {section}{\numberline {3}Schlussbemerkung}{9}{section.26}% 
+\contentsline {section}{Literatur}{11}{section*.27}% 

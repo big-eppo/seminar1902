@@ -48,8 +48,9 @@ und vernetzten Fahrzeugverkehr, welche in dieser Arbeit näher betrachtet werden
 \cleardoublepage
 \section{Vorstellung und Diskussion der ethischen Regeln} \label{VorstellungUndDiskussionDerEthischenRegeln}
 
-Im nachfolgenden Hauptteil dieser Ausarbeitung werden jeweils die von der Kommission formulierten ethischen Regeln zitiert und im Anschluss einer kritischen Würdigung unterzogen. 
-%% In einigen Fällen äußern sich die Autoren mit ihrer subjektiven Meinung. 
+Im nachfolgenden Hauptteil dieser Ausarbeitung werden jeweils die von der Kommission formulierten ethischen Regeln zitiert und im Anschluss einer kritischen 
+Würdigung hinsichtlich ihrer technischen Implementierbarkeit unterzogen. Diese fällt i.\,d.\,R. wegen der gebotenen Kürze knapp aus und ist natürlich
+von der subjektiven Meinung bzw. dem Assoziationsraum der Autoren geprägt. 
 
 \subsection{Primärziel Sicherheit} \label{PrimaerzielSicherheit}
 
@@ -213,7 +214,7 @@ Logbuchfunktion rollierend ausgeführt sein und nur einen überschaubaren Zeitra
 Die Öffentlichkeit hat einen Anspruch auf eine hinreichend differenzierte Aufklärung
 über neue Technologien und ihren Einsatz. Zur konkreten Umsetzung der hier entwickelten Grundsätze sollten in möglichst 
 transparenter Form Leitlinien für den Einsatz und die
-Programmierung von automatisierten Fahrzeugen abgeleitet und in der Öffentlichkeit
+Programmierung von automatisierten Fahrzeug+en abgeleitet und in der Öffentlichkeit
 kommuniziert und von einer fachlich geeigneten, unabhängigen Stelle geprüft werden.\grqq\mbox{~\cite[S. 12]{ek}}
 \end{quote}
 
@@ -236,6 +237,14 @@ Automatisiertes Fahren ist nur in dem Maße vertretbar, in dem denkbare Angriffe
 IT-Systems oder auch immanente Systemschwächen nicht
 zu solchen Schäden führen, die das Vertrauen in den Straßenverkehr nachhaltig erschüttern.\grqq\mbox{~\cite[S. 12]{ek}}
 \end{quote}
+
+Die Frage ist hier, welche Komponenten des Gesamtsystems anfällig gegenüber böswilligen IT-Angriffen von außen sind. Dies sind m.\,E. weniger 
+die öffentlichen Dienste oder Leitsysteme, da hier zwar Fehlfunktionen oder Ausfälle möglicherweise zu Verkehrschaos, nicht aber unmittelbar zu 
+Gefahrensituationen führen. Anders verhält es sich
+mit den Kommunikationssystemen der Fahrzeuge selbst. Sämtliche Car-to-Car- und Device-to-Car-Kommunikation\footnote{Mit \textit{Device-to-Car-Kommunikation} 
+ist hier die Kommunikation zwischen dem Fahrzeug und einem Handheld-Device im Besitz des Fahrers, z.\,B. einem Mobiltelefon, beispielsweise zu dessen
+Identifikation, gemeint. Diese Art der Kommunikation wird derzeit unter dem Industriestandard \textit{Bluetooth}~\cite{bt} ausgeführt.} dürfte daher ausschließlich verschlüsselt 
+und sicher authentifiziert stattfinden, damit eine unerwünschte Einflußnahme Dritter auf ein bestimmtes Fahrzeug ausgeschlossen ist.
 
 \subsection{Datenhoheit der Verkehrsteilnehmer} \label{DatenhoheitDerVerkehrsteilnehmer}
 
@@ -266,7 +275,10 @@ grenzüberschreitenden Verbreitung automobiler und digitaler Technologien die Ko
 Dokumentationspflichten zu gewährleisten.\grqq\mbox{~\cite[S. 13]{ek}}
 \end{quote}
 
-Notwendigkeit eines Logbuchs im Fahrzeug.
+Dieses Postulat, nämlich die Notwendigkeit zum Führen eines standardisierten \glqq Logbuchs\grqq\ im Fahrzeug, knüpft unmittelbar an 
+\ref{Produkthaftung}, also das Thema \textit{Produkthaftung}, an. Auf internationaler Ebene ist bei der Etablierung entsprechender Standards 
+und Zertifizierungsstellen mit den üblichen Friktionen und Verzögerungen zu rechnen, da nicht nur Hersteller- sondern auch Länder- oder 
+sonstige regionale Interessen berücksichtigt un in Einklang gebracht werden müssen.
 
 \subsection{Vermeidung abrupter Übergabevorgänge} \label{VermeidungAbrupterUebergabevorgaenge}
 
@@ -279,6 +291,11 @@ ermöglichen und Überforderung zu vermeiden,
 müssen sich die Systeme stärker dem Kommunikationsverhalten des Menschen anpassen
 und nicht umgekehrt erhöhte Anpassungsleistungen dem Menschen abverlangt werden.\grqq\mbox{~\cite[S. 13]{ek}}
 \end{quote}
+
+Dieser Punkt spricht unmittelbat das Thema \textit{Benutzerinterface} an.\footnote{Wer gelegentlich einen Mietwagen benutzt weiß, wie 
+umständlich es sein kann, herauszufinden, wie man in einem nicht vertrauten Fahrzeugmodell auch nur das Licht einschaltet. Auf die
+Benutzerinterface-Designer kommen im Kontext des \glqq hochautomatisierten Fahrens\grqq\ in den kommenden Jahren noch ungleich größere
+Herausforderungen zu.}
 
 \subsection{Aufbau eines Szenarienkatalogs} \label{AufbauEinesSzenarienkatalogs}
 
@@ -326,6 +343,8 @@ Was passiert, wenn Skills, die zum manuellen Fahren benötigt werden, nicht mehr
 \cleardoublepage
 \begin{thebibliography}{99}
 \addcontentsline{toc}{section}{Literatur}
+
+\bibitem{bt} Bluetooth Special Interest Group (SIG), Inc., https://www.bluetooth.com/, Stand Januar 2019
 
 \bibitem{ek} Ethik-Kommission, Bundesministerium für Verkehr und digitale Infrastruktur, Automatisiertes und
 Vernetztes Fahren, 2017
