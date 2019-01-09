@@ -41,6 +41,10 @@ und vernetzten Fahrzeugverkehr, welche in dieser Arbeit näher betrachtet werden
 
 \tableofcontents
 
+\vspace*{\stretch{1}}
+
+\listoffigures
+
 \newpage
 
 \mainmatter
@@ -49,8 +53,21 @@ und vernetzten Fahrzeugverkehr, welche in dieser Arbeit näher betrachtet werden
 \section{Vorstellung und Diskussion der ethischen Regeln} \label{VorstellungUndDiskussionDerEthischenRegeln}
 
 Im nachfolgenden Hauptteil dieser Ausarbeitung werden jeweils die von der Kommission formulierten ethischen Regeln zitiert und im Anschluss einer kritischen 
-Würdigung hinsichtlich ihrer technischen Implementierbarkeit unterzogen. Diese fällt i.\,d.\,R. wegen der gebotenen Kürze knapp aus und ist natürlich
-von der subjektiven Meinung bzw. dem Assoziationsraum der Autoren geprägt. 
+Würdigung hinsichtlich ihrer technischen Implementierbarkeit unterzogen. Diese fällt i.\,d.\,R. wegen der gebotenen Kürze knapp aus und ist selbstverständlich
+von der subjektiven Einschätzung der Autoren geprägt. Naturgemäß wirft sie eher weiterführende Fragen auf, als dass sie Antworten lieferte.\\
+
+Bevor wir uns den Regeln im Einzelnen zuwenden, wollen wir kurz die Automatisierungsgrade beim automatisierten Fahren klären. Der Verband der 
+Automobilindustrie (VDA)~\cite{vda} systematisiert diese so, wie in \autoref{figure:Automatisierungsgrade} dargestellt.\\
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=11cm]{resources/uebersicht-stufen-der-automatisierung.jpg}
+\caption[Automatisierungsgrade des automatisierten Fahrens]{Automatisierungsgrade des automatisierten Fahrens~\cite{vda}}
+\label{figure:Automatisierungsgrade}
+\end{figure}
+
+Die folgenden Regeln beziehen sich vor allem auf die Stufen 4 und 5, also auf das \textit{vollautomatisierte} und das \textit{fahrerlose} Fahren.
+Prinzipiell gelten sie natürlich für sämtliche Automatisierungsgrade.
 
 \subsection{Primärziel Sicherheit} \label{PrimaerzielSicherheit}
 
@@ -165,7 +182,7 @@ Es wäre gerade deshalb wünschenswert, durch eine unabhängige öffentliche Ein
 eines Bundesamtes für Sicherheit im automatisierten und vernetzten Verkehr) Erfahrungen systematisch zu verarbeiten.\grqq\mbox{~\cite[S. 11]{ek}}
 \end{quote}
 
-\subsection{Verbot der Qualifizierung möglicher Opfer nach persönlichen Merkmalen} \label{VerbotDerQualifizierungMoeglicherOpferNachPersönlichenMerkmalen}
+\subsection{Verbot der Qualifizierung von Opfern nach persönlichen Merkmalen} \label{VerbotDerQualifizierungMoeglicherOpferNachPersönlichenMerkmalen}
 
 \begin{quote}
 \glqq
@@ -260,7 +277,7 @@ Kraft des Faktischen, wie sie etwa beim Datenzugriff durch die Betreiber von Suc
 sollte frühzeitig entgegengewirkt werden.\grqq\mbox{~\cite[S. 12]{ek}}
 \end{quote}
 
-\subsection{Internationale Standardisierung der Protokoll- und Dokumentationspflichten} \label{InternationaleStandardisierungDerProtokollUndDokumentationspflichten}
+\subsection{Internationalisierung der Protokoll- und Dokumentationspflichten} \label{InternationaleStandardisierungDerProtokollUndDokumentationspflichten}
 
 \begin{quote}
 \glqq
@@ -278,7 +295,7 @@ Dokumentationspflichten zu gewährleisten.\grqq\mbox{~\cite[S. 13]{ek}}
 Dieses Postulat, nämlich die Notwendigkeit zum Führen eines standardisierten \glqq Logbuchs\grqq\ im Fahrzeug, knüpft unmittelbar an 
 \ref{Produkthaftung}, also das Thema \textit{Produkthaftung}, an. Auf internationaler Ebene ist bei der Etablierung entsprechender Standards 
 und Zertifizierungsstellen mit den üblichen Friktionen und Verzögerungen zu rechnen, da nicht nur Hersteller- sondern auch Länder- oder 
-sonstige regionale Interessen berücksichtigt un in Einklang gebracht werden müssen.
+sonstige regionale Interessen berücksichtigt und in Einklang gebracht werden müssen.
 
 \subsection{Vermeidung abrupter Übergabevorgänge} \label{VermeidungAbrupterUebergabevorgaenge}
 
@@ -338,20 +355,33 @@ Was passiert, wenn Skills, die zum manuellen Fahren benötigt werden, nicht mehr
 \cleardoublepage
 \section{Schlussbemerkung}
 
+Die technische Entwicklung des automatisierten Fahrens schreitet rasant voran, und der VDA prognostiziert eine breitflächige und sehr weitgehende Implementierung
+und Zulassung dieser Technologien noch in der kommenden Dekade.\\
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=11cm]{resources/zeitschiene-automatisierungsgrade.jpg}
+\caption[Zeitschiene bei der Implementierung des automatisierten Fahrens]{Zeitschiene bei der Implementierung des automatisierten Fahrens~\cite{vda}}
+\label{figure:ZeitschieneAutomatisierungsgrade}
+\end{figure}
+
+
 \newpage
 
 \cleardoublepage
 \begin{thebibliography}{99}
 \addcontentsline{toc}{section}{Literatur}
 
-\bibitem{bt} Bluetooth Special Interest Group (SIG), Inc., https://www.bluetooth.com/, Stand Januar 2019
+\bibitem{bt} Bluetooth Special Interest Group, Inc., \url{https://www.bluetooth.com/}, Stand Januar 2019
 
 \bibitem{ek} Ethik-Kommission, Bundesministerium für Verkehr und digitale Infrastruktur, Automatisiertes und
 Vernetztes Fahren, 2017
 
 \bibitem{bmvi1} PRESSEMITTEILUNG - 157/2016 Auftaktsitzung der Ethik-Kommission zum automatisierten Fahren, Stand: 30.12.2018\\ \url{https://www.bmvi.de/SharedDocs/DE/Pressemitteilungen/2016/157-dobrindt-ethikkommission.html}
-\bibitem{zeit1} Wer hat das Kommando?, Dietmar H. Lamparter, 13.03.2015, Stand: 30.12.2018 \\ \url{https://www.zeit.de/2015/09/autonomes-fahren-assistenzsystem-autotechnik/komplettansicht}
 
+\bibitem{vda} Verband der Automobilindustrie e.\,V. (VDA), \url{https://www.vda.de/de.html}, Stand Januar 2019
+
+\bibitem{zeit1} Wer hat das Kommando?, Dietmar H. Lamparter, 13.03.2015, Stand: 30.12.2018 \\ \url{https://www.zeit.de/2015/09/autonomes-fahren-assistenzsystem-autotechnik/komplettansicht}
 
 \end{thebibliography}
 
