@@ -54,7 +54,7 @@ und vernetzten Fahrzeugverkehr, welche in dieser Arbeit näher betrachtet werden
 
 Im nachfolgenden Hauptteil dieser Ausarbeitung werden jeweils die von der Kommission formulierten ethischen Regeln zitiert und im Anschluss einer kritischen 
 Würdigung hinsichtlich ihrer technischen Implementierbarkeit unterzogen. Diese fällt i.\,d.\,R. wegen der gebotenen Kürze knapp aus und ist selbstverständlich
-von der subjektiven Einschätzung der Autoren geprägt. Naturgemäß wirft sie eher weiterführende Fragen auf, als dass sie Antworten lieferte.\\
+stark von der subjektiven Einschätzung der Autoren geprägt. Naturgemäß wirft sie eher weiterführende Fragen auf, als dass sie Antworten lieferte.\\
 
 Bevor wir uns den Regeln im Einzelnen zuwenden, wollen wir kurz die Automatisierungsgrade beim automatisierten Fahren klären. Der Verband der 
 Automobilindustrie (VDA)~\cite{vda} systematisiert diese so, wie in \autoref{figure:Automatisierungsgrade} dargestellt.\\
@@ -220,9 +220,9 @@ eines Fahrzeugs aufsetzen, bzw. auf die Verfügbarkeit einer Kommunikationsinfra
 angewiesen sind, nur dann vom Fahrzeug angeboten bzw. genutzt werden, wenn alle \glqq Betriebssystem\grqq -Voraussetzungen dafür erfüllt sind 
 und die notwendigen Dienste in ausreichender Qualität zur Verfügung stehen. Dies könnte zur Beweissicherung in einer Unfallsituation
 z.\, B. durch eine manipulationssichere Logbuch-Funktion eines Hardware-Gerätes an Bord eines jeden Fahrzeugs ähnlich den Flugschreibern in der Luftfahrt
-geschehen. Um den deutschen und europäischen Anforderungen der Datensparsamkeit und -vermeidung gerecht zu werden, könnte diese 
-Logbuchfunktion rollierend ausgeführt sein und nur einen überschaubaren Zeitraum abdecken.
-
+geschehen. Eine entsprechende mögliche Lösung wird derzeit in den Vereinigten Staaten diskutiert.~\cite{epic} Eine in jedem Fahrzeug vorhandene, speziell 
+gesicherte und nur vom Fahrzeugbesitzer auslesbare \glqq Black Box\grqq\ wäre dann in der Lage, im Falle eines Unfalls rückwirkend für eine Zeitraum 
+von 30 Sekunden sämtliche Fahrzeugdaten zu liefern.
 
 \subsection{Aufklärung der Öffentlichkeit} \label{AufklaerungDerOeffentlichkeit}
 
@@ -231,7 +231,7 @@ Logbuchfunktion rollierend ausgeführt sein und nur einen überschaubaren Zeitra
 Die Öffentlichkeit hat einen Anspruch auf eine hinreichend differenzierte Aufklärung
 über neue Technologien und ihren Einsatz. Zur konkreten Umsetzung der hier entwickelten Grundsätze sollten in möglichst 
 transparenter Form Leitlinien für den Einsatz und die
-Programmierung von automatisierten Fahrzeug+en abgeleitet und in der Öffentlichkeit
+Programmierung von automatisierten Fahrzeugen abgeleitet und in der Öffentlichkeit
 kommuniziert und von einer fachlich geeigneten, unabhängigen Stelle geprüft werden.\grqq\mbox{~\cite[S. 12]{ek}}
 \end{quote}
 
@@ -255,7 +255,7 @@ IT-Systems oder auch immanente Systemschwächen nicht
 zu solchen Schäden führen, die das Vertrauen in den Straßenverkehr nachhaltig erschüttern.\grqq\mbox{~\cite[S. 12]{ek}}
 \end{quote}
 
-Die Frage ist hier, welche Komponenten des Gesamtsystems anfällig gegenüber böswilligen IT-Angriffen von außen sind. Dies sind m.\,E. weniger 
+Die Frage ist hier, welche Komponenten des Gesamtsystems anfällig gegenüber böswilligen IT-Angriffen von außen sind. Dies sind u.\,E. weniger 
 die öffentlichen Dienste oder Leitsysteme, da hier zwar Fehlfunktionen oder Ausfälle möglicherweise zu Verkehrschaos, nicht aber unmittelbar zu 
 Gefahrensituationen führen. Anders verhält es sich
 mit den Kommunikationssystemen der Fahrzeuge selbst. Sämtliche Car-to-Car- und Device-to-Car-Kommunikation\footnote{Mit \textit{Device-to-Car-Kommunikation} 
@@ -377,11 +377,21 @@ und Zulassung dieser Technologien noch in der kommenden Dekade.\\
 \bibitem{ek} Ethik-Kommission, Bundesministerium für Verkehr und digitale Infrastruktur, Automatisiertes und
 Vernetztes Fahren, 2017
 
-\bibitem{bmvi1} PRESSEMITTEILUNG - 157/2016 Auftaktsitzung der Ethik-Kommission zum automatisierten Fahren, Stand: 30.12.2018\\ \url{https://www.bmvi.de/SharedDocs/DE/Pressemitteilungen/2016/157-dobrindt-ethikkommission.html}
+\bibitem{epic} Electronic Privacy Information Center (EPIC), Automobile Event Data Recorders (Black Boxes) and Privacy,
+\url{https://epic.org/privacy/edrs/}, Stand Januar 2019
+
+\bibitem{bmvi1} Bundesministerium für Verkehr und digitale Infrastruktur, Pressemitteilung 157/2016: Auftaktsitzung der Ethik-Kommission zum automatisierten Fahren,\\ 
+\url{https://www.bmvi.de/SharedDocs/DE/Pressemitteilungen/2016/157-dobrindt-ethikkommission.html}, Stand 30.12.2018
+
+\bibitem{ho} G. Hornung, Verfügungsrechte an fahrzeugbezogenen Daten, in \textit{Datenschutz und Datensicherheit 2015}, \mbox{S. 359--366}
+
+\bibitem{zeit1} D. H. Lamparter, Wer hat das Kommando?, in \textit{Die Zeit Nr. 9/2015}, \\
+\url{https://www.zeit.de/2015/09/autonomes-fahren-assistenzsystem-autotechnik/komplettansicht}, Stand 30.12.2018
+
+\bibitem{dot} U.\,S. Department of Transportation (DOT), Preparing for the Future of Transportation: Automated Vehicle 3.0, 2018,
+\url{https://www.transportation.gov/av}, Stand Januar 2019
 
 \bibitem{vda} Verband der Automobilindustrie e.\,V. (VDA), \url{https://www.vda.de/de.html}, Stand Januar 2019
-
-\bibitem{zeit1} Wer hat das Kommando?, Dietmar H. Lamparter, 13.03.2015, Stand: 30.12.2018 \\ \url{https://www.zeit.de/2015/09/autonomes-fahren-assistenzsystem-autotechnik/komplettansicht}
 
 \end{thebibliography}
 
