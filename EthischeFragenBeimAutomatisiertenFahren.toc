@@ -10,16 +10,16 @@
 \contentsline {subsection}{\numberline {2.7}Priorit\IeC {\"a}t des Schutzes menschlichen Lebens}{5}{subsection.12}% 
 \contentsline {subsection}{\numberline {2.8}Nicht-Normierbarkeit dilemmatischer Entscheidungen}{5}{subsection.13}% 
 \contentsline {subsection}{\numberline {2.9}Verbot der Qualifizierung von Opfern nach pers\IeC {\"o}nlichen Merkmalen}{6}{subsection.14}% 
-\contentsline {subsection}{\numberline {2.10}Verschiebung der Verantwortung auf die Hersteller}{7}{subsection.15}% 
-\contentsline {subsection}{\numberline {2.11}Produkthaftung}{7}{subsection.16}% 
-\contentsline {subsection}{\numberline {2.12}Aufkl\IeC {\"a}rung der \IeC {\"O}ffentlichkeit}{7}{subsection.17}% 
-\contentsline {subsection}{\numberline {2.13}Ausschluss der totalen \IeC {\"U}berwachung}{8}{subsection.19}% 
-\contentsline {subsection}{\numberline {2.14}Erhalt des Vertrauens in den Stra\IeC {\ss }enverkehr}{8}{subsection.20}% 
-\contentsline {subsection}{\numberline {2.15}Datenhoheit der Verkehrsteilnehmer}{8}{subsection.22}% 
-\contentsline {subsection}{\numberline {2.16}Internationalisierung der Protokoll- und Dokumentationspflichten}{9}{subsection.23}% 
-\contentsline {subsection}{\numberline {2.17}Vermeidung abrupter \IeC {\"U}bergabevorg\IeC {\"a}nge}{10}{subsection.24}% 
-\contentsline {subsection}{\numberline {2.18}Aufbau eines Szenarienkatalogs}{10}{subsection.26}% 
-\contentsline {subsection}{\numberline {2.19}Autonomes \IeC {\"U}berf\IeC {\"u}hren in sicheren Grundzustand in Notsituationen}{11}{subsection.27}% 
-\contentsline {subsection}{\numberline {2.20}Fahrausbildung}{11}{subsection.28}% 
-\contentsline {section}{\numberline {3}Schlussbemerkung}{13}{section.29}% 
-\contentsline {section}{Literatur}{15}{section*.31}% 
+\contentsline {subsection}{\numberline {2.10}Verschiebung der Verantwortung auf die Hersteller}{7}{subsection.19}% 
+\contentsline {subsection}{\numberline {2.11}Produkthaftung}{8}{subsection.20}% 
+\contentsline {subsection}{\numberline {2.12}Aufkl\IeC {\"a}rung der \IeC {\"O}ffentlichkeit}{8}{subsection.21}% 
+\contentsline {subsection}{\numberline {2.13}Ausschluss der totalen \IeC {\"U}berwachung}{9}{subsection.23}% 
+\contentsline {subsection}{\numberline {2.14}Erhalt des Vertrauens in den Stra\IeC {\ss }enverkehr}{9}{subsection.24}% 
+\contentsline {subsection}{\numberline {2.15}Datenhoheit der Verkehrsteilnehmer}{9}{subsection.26}% 
+\contentsline {subsection}{\numberline {2.16}Internationalisierung der Protokoll- und Dokumentationspflichten}{10}{subsection.27}% 
+\contentsline {subsection}{\numberline {2.17}Vermeidung abrupter \IeC {\"U}bergabevorg\IeC {\"a}nge}{11}{subsection.28}% 
+\contentsline {subsection}{\numberline {2.18}Aufbau eines Szenarienkatalogs}{11}{subsection.30}% 
+\contentsline {subsection}{\numberline {2.19}Autonomes \IeC {\"U}berf\IeC {\"u}hren in sicheren Grundzustand in Notsituationen}{11}{subsection.31}% 
+\contentsline {subsection}{\numberline {2.20}Fahrausbildung}{12}{subsection.32}% 
+\contentsline {section}{\numberline {3}Schlussbemerkung}{15}{section.43}% 
+\contentsline {section}{Literatur}{17}{section*.45}% 
