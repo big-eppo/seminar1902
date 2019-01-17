@@ -182,7 +182,7 @@ Das Beispiel zeigt, dass manche Sachschäden enorme Auswirkungen mit sich bringe
 Es soll auch erwähnt werden,  zu einem, es nicht möglich sein wird, alle möglichen Szenarien der Maschine beizubringen. Weiterhin sind die Menschen selbst  niemals in der Lage, alle möglichen Ausgänge eines Unfalls in kürzesten Zeit zu zu analysieren und entscheiden sich meist intuitiv.\\
 Eine korrekte Handlung in diesem Fall bleibt vorerst technisch schwer umsetzbar zu sein.
 %% gelesen
-\subsection{Nicht-Normierbarkeit dilemmatischer Entscheidungen} \label{NichtNormierbarkeitDilemmatischerEntscheidungen}
+\subsection{Keine Normierbarkeit dilemmatischer Entscheidungen} \label{NichtNormierbarkeitDilemmatischerEntscheidungen}
 %% 2.8
 \begin{quote}
 \glqq
@@ -251,15 +251,24 @@ verbessern, wo dies technisch möglich und zumutbar ist.\grqq\mbox{~\cite[S. 12]
 \end{quote}
 
 Beim Thema Produkthaftung muss zwischen den Fahrzeugherstellern und den Betreibern der für automatisiertes Fahren notwendigen
-Kommunikationsinfrastruktur differenziert werden. Als dritte Gruppe potentiell Haftender kommen private Anbieter von Datenbank-Systemen z.\,B. für 
-Topographie-, Wetter- oder Unfallszenario-Daten in Betracht. Grundsätzlich dürfen Fahrzeugfunktionen, die auf einem gewissen Firmware-Releasestand
-eines Fahrzeugs aufsetzen, bzw. auf die Verfügbarkeit einer Kommunikationsinfrastruktur oder die Erreichbarkeit bestimmter externen Dienste
-angewiesen sind, nur dann vom Fahrzeug angeboten bzw. genutzt werden, wenn alle \glqq Betriebssystem\grqq -Voraussetzungen dafür erfüllt sind 
-und die notwendigen Dienste in ausreichender Qualität zur Verfügung stehen. Dies könnte zur Beweissicherung in einer Unfallsituation
-z.\, B. durch eine manipulationssichere Logbuch-Funktion eines Hardware-Gerätes an Bord eines jeden Fahrzeugs ähnlich den Flugschreibern in der Luftfahrt
-geschehen. Eine entsprechende mögliche Lösung wird derzeit in den Vereinigten Staaten diskutiert.~\cite{epic} Eine in jedem Fahrzeug vorhandene, speziell 
-gesicherte und nur vom Fahrzeugbesitzer auslesbare \glqq Black Box\grqq\ wäre dann in der Lage, im Falle eines Unfalls rückwirkend für einen Zeitraum 
-von 30 Sekunden sämtliche Fahrzeugdaten zu liefern.
+Kommunikationsinfrastruktur differenziert werden. Dies gilt sowohl für die Car-to-Car- wie für die Car-to-Infrastructure-Kommunikation.
+Als dritte Gruppe potentiell Haftender kommen Anbieter von Backend-Systemen z.\,B. für Verkehrs-, Karten-, Wetter- oder Unfallszena\-rio-Daten 
+in Betracht. 
+
+Grundsätzlich dürfen Fahrzeugfunktionen, die auf einem definierten \glqq Betriebssys\-tem\grqq-Stand eines Fahrzeugs aufsetzen, bzw. auf die 
+Verfügbarkeit einer Kommunikationsinfrastruktur oder die Erreichbarkeit bestimmter externen Dienste angewiesen sind, nur dann vom Fahrzeug 
+angeboten bzw. genutzt werden, wenn alle technischen Voraussetzungen dafür erfüllt sind und die notwendigen Dienste in ausreichender 
+Qualität verfügbar sind. Da beim derzeitigen Automatisierungsstand noch auschließlich von der Fahrzeugsensorik selbst generierte Daten verwendet werden, 
+sind hier zunächst die Hersteller in der Pflicht, die ausgelieferten Fahrzeuge laufend drahtlos mit den neuesten Software-Upgrades auszustatten.
+Anspruchsvollere Automatisierungsfunktionen werden aber schon in nächster Zukunft auch auf die Verfügbarkeit und Qualität externer Dienste 
+angewiesen sein. Die Frage ist, inwiefern deren Anbieter ebenfalls in die Produkthaftung einbezogen werden können.
+
+Zur Beweissicherung in einer Unfallsituation wird es künftig von großer Wichtigkeit sein, nachzuvollziehen, welche Fahrzeugfunktionen genau in welcher 
+Reihenfolge vor dem Eintritt des Unfalls genutzt wurden und in welchem Umfang der Fahrer selbst manuell an der Fahrzeugführung beteiligt war. Dies 
+könnte beispielsweise durch eine manipulationssichere Logbuch-Funktion eines Hardware-Gerätes an Bord eines jeden Fahrzeugs ähnlich den Flugschreibern 
+in der Luftfahrt geschehen. Eine entsprechende mögliche Lösung wird derzeit in den Vereinigten Staaten diskutiert.~\cite{epic} Eine in jedem Fahrzeug
+vorhandene, speziell gesicherte und nur vom Fahrzeugbesitzer auslesbare \glqq Black Box\grqq\ wäre dann in der Lage, im Falle eines Unfalls rückwirkend 
+für einen Zeitraum von 30 Sekunden sämtliche Fahrzeugdaten zu liefern.
 
 \subsection{Aufklärung der Öffentlichkeit} \label{AufklaerungDerOeffentlichkeit}
 
@@ -272,9 +281,18 @@ Programmierung von automatisierten Fahrzeugen abgeleitet und in der Öffentlichk
 kommuniziert und von einer fachlich geeigneten, unabhängigen Stelle geprüft werden.\grqq\mbox{~\cite[S. 12]{ek}}
 \end{quote}
 
-Die Aufklärung der Öffentlichkeit über den Stand der Technik und der Diskussion über relevante Fragestellungen ist sicherlich eine Aufgabe der öffentlichen Hand. 
-So informiert beispielsweise in Deutschland das Bundesministerium für Verkehr und digitale Infrastruktur (BMVI) regelmäßig über den Stand der Dinge.\footnote{
-Publikationen des BMVI sind über die Website \url{https://www.bmvi.de/DE/Service/Publikationen} abrufbar.} 
+Die Aufklärung der Öffentlichkeit über den Stand der Technik und der Diskussion über relevante Fragestellungen ist sicherlich eine Aufgabe der öffentlichen
+Hand. 
+So informiert beispielsweise in Deutschland das Bundesministerium für Verkehr und digitale Infrastruktur (BMVI) u.\,a. regelmäßig über den Stand der Dinge hinsichtlich
+des automatisierten Fahrens.\footnote{Publikationen des BMVI sind über die Website \url{https://www.bmvi.de/DE/Service/Publikationen} abrufbar.} Die vom
+BMVI publizierten Dokumente haben einen sehr unterschiedlichen Anspruch und differenzierte Zielgruppen. Während z.\,B. die Broschüre \textit{Die mobile 
+Zukunft beginnt jetzt! Wie automatisiertes und vernetztes Fahren den Verkehr revolutioniert}~\cite{bmvi3} in Sprache und Anmutung fast wie eine Werbebroschüre 
+für \glqq Otto Normalverbraucher\grqq\ daherkommt, richten sich \textit{Bericht zum Stand der Umsetzung der Strategie automatisiertes und vernetztes 
+Fahren} und \textit{\glqq Eigentumsordnung\grqq\ für Mobilitätsdaten? Eine Studie aus technischer, ökonomischer und rechtlicher Perspektive} eindeutig an ein
+Fachpublikum oder den weitergehend interessierten Laien, sind sprachlich anspruchsvoller und verfügen über Fußnoten und einen Quellennachweis.
+
+Ein Blick in die Vereinigten Staaten zeigt, dass das dort zuständige \textit{Department of Transportation} eine ganz ähnliche Kommunikationspolitik
+verfolgt.~\cite{dot}
 
 \subsection{Ausschluss der totalen Überwachung} \label{AusschlussDerTotalenUeberwachung}
 
@@ -286,6 +304,8 @@ lässt sich heute nicht abschätzen. Eine vollständige Vernetzung und zentrale 
 digitalen Verkehrsinfrastruktur ist ethisch bedenklich, wenn und soweit sie Risiken einer totalen Überwachung der Verkehrsteilnehmer 
 und der Manipulation der Fahrzeugsteuerung nicht sicher auszuschließen vermag.\grqq\mbox{~\cite[S. 12]{ek}}
 \end{quote}
+
+
 
 \subsection{Erhalt des Vertrauens in den Straßenverkehr} \label{ErhaltDesVertrauensInDenStrassenverkehr}
 
@@ -426,7 +446,7 @@ Als Konsequenz der o.\,g. Aspekte empfiehlt die Arbeitsgruppe eine Anpassung der
 Ausbildung und Prüfung genutzten Fahrzeuge und deren Ausstattung voraus. Derzeit gestattet die Fahrerlaubnis-Verordnung~\cite{bmjv} dem Bewerber die Auswahl, ob er bei der Prüfung
 Assistenzsysteme in Anspruch nehmen will. Dies müsste dahingehend geändert werden, dass entsprechende Fahrsituationen sowohl mit als auch ohne elektronische Unterstützung
 bewältigt werden müssen. Zu guter Letzt ist es erforderlich, die Ausbildung von Fahrlehrern und amtlich anerkannten Sachverständigen oder Prüfern (aaSoP) ständig auf dem
-aktuellen Stand zu halten und somit der rasanten Entwicklung im Bereich des autmatisierten Fahrens Rechnung zu tragen.
+aktuellen Stand zu halten und somit der rasanten Entwicklung im Bereich des automatisierten Fahrens Rechnung zu tragen.
 
 \newpage
 
@@ -467,11 +487,10 @@ Vernetztes Fahren, 2017
 \bibitem{bmvi2} BMVI, Bericht zum Stand der Umsetzung der Strategie automatisiertes und vernetztes Fahren,
 November 2017, \url{https://www.bmvi.de/SharedDocs/DE/Publikationen/DG/bericht-avf.html}, Stand Januar 2019
 
-\bibitem{bmvi3} BMVI, Die mobile Zukunft beginnt jetzt! - Wie automatisiertes und vernetztes Fahren den Verkehr revolutioniert,
+\bibitem{bmvi3} BMVI, Die mobile Zukunft beginnt jetzt! Wie automatisiertes und vernetztes Fahren den Verkehr revolutioniert,
 November 2017, \url{https://www.bmvi.de/SharedDocs/DE/Publikationen/DG/automatisiertes-fahren.html}, Stand Januar 2019
 
-\bibitem{bmvi4} BMVI, \glqq Eigentumsordnung\grqq\ für Mobilitätsdaten? - 
-Eine Studie aus technischer, ökonomischer und rechtlicher Perspektive,
+\bibitem{bmvi4} BMVI, \glqq Eigentumsordnung\grqq\ für Mobilitätsdaten? Eine Studie aus technischer, ökonomischer und rechtlicher Perspektive,
 August 2017, \url{https://www.bmvi.de/SharedDocs/DE/Publikationen/DG/eigentumsordnung-mobilitaetsdaten.html}, Stand Januar 2019
 
 \bibitem{ho} G. Hornung, Verfügungsrechte an fahrzeugbezogenen Daten, in \textit{Datenschutz und Datensicherheit 2015}, \mbox{S. 359--366}
