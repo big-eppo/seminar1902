@@ -305,7 +305,12 @@ digitalen Verkehrsinfrastruktur ist ethisch bedenklich, wenn und soweit sie Risi
 und der Manipulation der Fahrzeugsteuerung nicht sicher auszuschließen vermag.\grqq\mbox{~\cite[S. 12]{ek}}
 \end{quote}
 
-
+Wie bereits erwähnt, werden bei dem derzeitigen Grad der Automatisierung fast ausschließlich vom Fahrzeug selbst generierte Daten verwendet.
+Dies wird sich aber ändern, sobald anspruchsvollere Systeme den gesamten Verkehr orchestrieren und eine ausgedehnte Car-to-Car und 
+Car-to-Infrastructure-Kommunikation erforderlich machen. Besondere Bedeutung haben in diesem Kontext die \textit{Cooperative Awareness Messages (CAM)},
+Status-Meldungen, die jedes Fahrzeug quasi-permanent aussendet und die von Leitzentralen ausgewertet werden, um die aktuelle Verkehrlage abzubilden.
+Obwohl CAMs verschlüsselt übertragen und pseudonymisiert werden, ist trotzdem die Erstellung von Bewegungsprofilen zumindest prinzipiell möglich.
+Daher muss es für einen Fahrzeugführer möglich sein, einzustellen, wann und in welchem Umfang CAMs gesendet werden.
 
 \subsection{Erhalt des Vertrauens in den Straßenverkehr} \label{ErhaltDesVertrauensInDenStrassenverkehr}
 
@@ -318,8 +323,8 @@ zu solchen Schäden führen, die das Vertrauen in den Straßenverkehr nachhaltig
 
 Die Frage ist hier, welche Komponenten des Gesamtsystems anfällig gegenüber böswilligen IT-Angriffen von außen sind. Dies sind u.\,E. weniger 
 die öffentlichen Dienste oder Leitsysteme, da hier zwar Fehlfunktionen oder Ausfälle möglicherweise zu Verkehrschaos, nicht aber unmittelbar zu 
-Gefahrensituationen führen. Anders verhält es sich
-mit den Kommunikationssystemen der Fahrzeuge selbst. Sämtliche Car-to-Car- und Device-to-Car-Kommunikation\footnote{Mit \textit{Device-to-Car-Kommunikation} 
+Gefahrensituationen führen. Anders verhält es sich mit den Kommunikations- und Sensorsystemen der einzelnen Fahrzeuge selbst. 
+Sämtliche Car-to-Car- und Device-to-Car-Kommunikation\footnote{Mit \textit{Device-to-Car-Kommunikation} 
 ist hier die Kommunikation zwischen dem Fahrzeug und einem Handheld-Device im Besitz des Fahrers, z.\,B. einem Mobiltelefon, beispielsweise zu dessen
 Identifikation, gemeint. Diese Art der Kommunikation wird derzeit unter dem Industriestandard \textit{Bluetooth}~\cite{bt} ausgeführt.} dürfte daher ausschließlich verschlüsselt 
 und sicher authentifiziert stattfinden, damit eine unerwünschte Einflußnahme Dritter auf ein bestimmtes Fahrzeug ausgeschlossen ist.
