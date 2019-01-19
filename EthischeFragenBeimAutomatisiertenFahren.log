@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.3)  17 JAN 2019 21:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.3)  19 JAN 2019 16:27
 entering extended mode
 **./EthischeFragenBeimAutomatisiertenFahren.tex
 (EthischeFragenBeimAutomatisiertenFahren.tex
@@ -1281,6 +1281,11 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \openout6 = `EthischeFragenBeimAutomatisiertenFahren.lof'.
 
  [2]
+Overfull \hbox (5.80406pt too wide) in paragraph at lines 53--53
+[]\T1/cmr/bx/n/17.28 Vorstellung und Kom-men-tie-rung der Ethik-Regeln 
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 55--59
 
  []
@@ -1329,13 +1334,19 @@ Underfull \hbox (badness 2277) in paragraph at lines 287--287
 m/n/10 https : / / www . bmvi . de / DE / Service /
  []
 
-[9] [10] [11]
+[9]
+Overfull \hbox (5.70374pt too wide) in paragraph at lines 324--329
+\T1/cmr/m/n/12 zeug aus-ge-schlos-sen ist. Dar-über hin-aus muss si-cher-ge-ste
+llt wer-den, dass die Fahrzeug-
+ []
+
+[10] [11] [12]
 Overfull \hbox (9.21677pt too wide) in paragraph at lines 413--413
 []\T1/cmr/bx/n/14.4 Autonomes Über-füh-ren in si-che-ren Grund-zu-stand in Not-
 
  []
 
-[12]
+
 Overfull \hbox (0.8346pt too wide) in paragraph at lines 440--441
 []\T1/cmr/m/n/12 Verringertes Si-tua-ti-ons-be-wusst-sein, da-durch Ver-min-de-
 rung der Fä-hig-keit künf-
@@ -1346,7 +1357,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 461--463
 
  []
 
-<resources/zeitschiene-automatisierungsgrade.jpg, id=324, 1194.71344pt x 820.56
+<resources/zeitschiene-automatisierungsgrade.jpg, id=320, 1194.71344pt x 820.56
 563pt>
 File: resources/zeitschiene-automatisierungsgrade.jpg Graphic file (type jpg)
 <use resources/zeitschiene-automatisierungsgrade.jpg>
@@ -1359,60 +1370,75 @@ on input line 466.
 
 ]
 Underfull \hbox (badness 4316) in paragraph at lines 495--497
-\T1/cmtt/m/n/12 SharedDocs / DE / Publikationen / DG / automatisiertes-[]fahren
- . html$[]\T1/cmr/m/n/12 , Stand
+\T1/cmtt/m/n/12 SharedDocs / DE / Publikationen / DG / automatisiertes -[] fahr
+en . html$[]\T1/cmr/m/n/12 , Stand
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 498--500
+Underfull \hbox (badness 1735) in paragraph at lines 498--500
 []\T1/cmr/m/n/12 BMVI, Ei-gen-tums-ord-nung für Mo-bi-li-täts-da-ten? Ei-ne S
-tu-die aus
+tu-die aus tech-
+ []
+
+
+Underfull \hbox (badness 1194) in paragraph at lines 498--500
+\T1/cmr/m/n/12 ni-scher, öko-no-mi-scher und recht-li-cher Per-spek-ti-ve, Au-g
+ust 2017, []$\T1/cmtt/m/n/12 https :
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 498--500
-\T1/cmr/m/n/12 tech-ni-scher, öko-no-mi-scher und recht-li-cher Per-spek-ti-ve,
- Au-gust
+\T1/cmtt/m/n/12 / / www . bmvi . de / SharedDocs / DE / Publikationen / DG / ei
+gentumsordnung -[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 498--500
-\T1/cmr/m/n/12 2017, []$\T1/cmtt/m/n/12 https : / / www . bmvi . de / SharedDoc
-s / DE / Publikationen / DG /
+Underfull \hbox (badness 10000) in paragraph at lines 503--505
+[]$\T1/cmtt/m/n/12 https : / / www . zeit . de / 2015 / 09 / autonomes -[] fahr
+en -[] assistenzsystem -[]
  []
 
 
-Overfull \hbox (49.52184pt too wide) in paragraph at lines 503--505
-[]$\T1/cmtt/m/n/12 https : / / www . zeit . de / 2015 / 09 / autonomes-[]fahren
--[]assistenzsystem-[]autotechnik /
+Underfull \hbox (badness 6428) in paragraph at lines 506--508
+[]\T1/cmr/m/n/12 R.D. Precht, Ma-schi-nen oh-ne Mo-ral, in \T1/cmr/m/it/12 Der 
+Spie-gel Nr. 48/2018
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 506--508
+\T1/cmr/m/n/12 vom 24.11.2018, [], []$\T1/cmtt/m/n/12 http : / / www . spiegel 
+. de / plus / richard -[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 506--508
+\T1/cmtt/m/n/12 david -[] precht -[] vom -[] irrsinn -[] maschinen -[] ethik -[
+] einzuprogrammieren -[]
  []
 
 [17] [18]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 518.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 518.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 521.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 521.
  (EthischeFragenBeimAutomatisiertenFahren.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 518.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 518.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 521.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 521.
 Package rerunfilecheck Info: File `EthischeFragenBeimAutomatisiertenFahren.out'
  has not changed.
-(rerunfilecheck)             Checksum: 02D6369E5AF00678CDA3035529A97D3C;2012.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 518.
+(rerunfilecheck)             Checksum: 3B57CA8E320C63178CF186DF1A517CD5;2011.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 521.
  ) 
 Here is how much of TeX's memory you used:
- 33777 strings out of 492946
- 698750 string characters out of 3126267
- 1134632 words of memory out of 3000000
- 37069 multiletter control sequences out of 15000+200000
+ 33778 strings out of 492946
+ 698748 string characters out of 3126267
+ 1134642 words of memory out of 3000000
+ 37070 multiletter control sequences out of 15000+200000
  547601 words of font info for 63 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 69i,8n,98p,1693b,459s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{Hfootnote.40} has been referenced but does not ex
+ 69i,8n,98p,1693b,481s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{Hfootnote.39} has been referenced but does not ex
 ist, replaced by a fixed one
 
-pdfTeX warning (dest): name{Hfootnote.29} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{Hfootnote.25} has been referenced but does not exis
+pdfTeX warning (dest): name{Hfootnote.28} has been referenced but does not exis
 t, replaced by a fixed one
 
 pdfTeX warning (dest): name{Hfootnote.22} has been referenced but does not exis
@@ -1435,10 +1461,10 @@ cbx1200.pk> <C:\Users\chris\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/e
 c/dpi600\ecrm1200.pk> <C:\Users\chris\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/
 jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\chris\AppData\Local\MiKTeX\2.9\fonts/
 pk/ljfour/jknappen/ec/dpi600\ecrm1728.pk>
-Output written on EthischeFragenBeimAutomatisiertenFahren.pdf (22 pages, 740110
+Output written on EthischeFragenBeimAutomatisiertenFahren.pdf (22 pages, 742532
  bytes).
 PDF statistics:
- 885 PDF objects out of 1000 (max. 8388607)
+ 890 PDF objects out of 1000 (max. 8388607)
  82 named destinations out of 1000 (max. 500000)
  316 words of extra memory for PDF output out of 10000 (max. 10000000)
 

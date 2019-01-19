@@ -50,15 +50,15 @@ und vernetzten Fahrzeugverkehr aufgeschrieben sind. Diese Regeln sind die These 
 \mainmatter
 
 \cleardoublepage
-\section{Vorstellung und Diskussion der ethischen Regeln} \label{VorstellungUndDiskussionDerEthischenRegeln}
+\section{Vorstellung und Kommentierung der Ethik-Regeln} \label{VorstellungUndKommentierungDerEthikRegeln}
 
-Im nachfolgenden Hauptteil dieser Ausarbeitung werden jeweils, die von der Kommission formulierten ethischen Regeln zitiert und im Anschluss einer kritischen 
+Im nachfolgenden Hauptteil dieser Ausarbeitung werden jeweils die von der Kommission formulierten ethischen Regeln zitiert und im Anschluss einer kritischen 
 Würdigung hinsichtlich ihrer technischen Implementierbarkeit und der Kompatibilität mit heutigen gesellschaftlichen Normen unterzogen. 
 Diese fällt i.\,d.\,R. wegen der gebotenen Kürze knapp aus und ist selbstverständlich
 stark von der subjektiven Einschätzung der Autoren geprägt. Naturgemäß wirft sie eher weiterführende Fragen auf, als dass sie Antworten lieferte.\\
 
 Bevor wir uns den Regeln im Einzelnen zuwenden, wollen wir kurz die Automatisierungsgrade beim automatisierten Fahren klären. Der Verband der 
-Automobilindustrie (VDA)~\cite{vda} systematisiert diese so, wie in \autoref{figure:Automatisierungsgrade} dargestellt.\\
+Automobilindustrie (VDA)~\cite{vda} systematisiert diese so wie in \autoref{figure:Automatisierungsgrade} dargestellt.\\
 
 \begin{figure}[H]
 \centering
@@ -321,13 +321,11 @@ IT-Systems oder auch immanente Systemschwächen nicht
 zu solchen Schäden führen, die das Vertrauen in den Straßenverkehr nachhaltig erschüttern.\grqq\mbox{~\cite[S. 12]{ek}}
 \end{quote}
 
-Die Frage ist hier, welche Komponenten des Gesamtsystems anfällig gegenüber böswilligen IT-Angriffen von außen sind. Dies sind u.\,E. weniger 
-die öffentlichen Dienste oder Leitsysteme, da hier zwar Fehlfunktionen oder Ausfälle möglicherweise zu Verkehrschaos, nicht aber unmittelbar zu 
-Gefahrensituationen führen. Anders verhält es sich mit den Kommunikations- und Sensorsystemen der einzelnen Fahrzeuge selbst. 
-Sämtliche Car-to-Car- und Device-to-Car-Kommunikation\footnote{Mit \textit{Device-to-Car-Kommunikation} 
-ist hier die Kommunikation zwischen dem Fahrzeug und einem Handheld-Device im Besitz des Fahrers, z.\,B. einem Mobiltelefon, beispielsweise zu dessen
-Identifikation, gemeint. Diese Art der Kommunikation wird derzeit unter dem Industriestandard \textit{Bluetooth}~\cite{bt} ausgeführt.} dürfte daher ausschließlich verschlüsselt 
-und sicher authentifiziert stattfinden, damit eine unerwünschte Einflußnahme Dritter auf ein bestimmtes Fahrzeug ausgeschlossen ist.
+Die Frage ist hier, welche Komponenten des Gesamtsystems anfällig gegenüber böswilligen IT-Angriffen von außen sind und welcher Natur potentielle Angriffe
+wären. Dies sind auf der einen Seite die öffentlichen Verkehrs-Dienste und -Leitsysteme, die natürlich gegen Angriffe von außen abgesichert werden müssen. 
+Dies ist aber schon heute der Fall, sonst wäre jede Ampelanlage an einer größeren Verkehrskreuzung eine potentiell tödliche Gefahrenquelle. Auf der anderen Seite kommen als potentielle Angriffspunkte die Kommunikations- und Sensorsysteme der einzelnen Fahrzeuge selbst in Betracht. Sämtliche Car-to-Car- und Car-to-Infrastructure-Kommunikation dürfte daher ausschließlich verschlüsselt und sicher authentifiziert stattfinden, damit eine unerwünschte Einflußnahme Dritter auf ein bestimmtes Fahrzeug ausgeschlossen ist. Darüber hinaus muss sichergestellt werden, dass die Fahrzeug-Sensorik sicher gegenüber Manipulationen von außen ist, 
+im Besonderen dahingehend, dass dem Fahrzeug eine real gar nicht existierende Verkehrssituation \glqq vorgespiegelt\grqq\ wird und damit ein potentiell 
+gefährliches Fehlverhalten provoziert würde.
 
 \subsection{Datenhoheit der Verkehrsteilnehmer} \label{DatenhoheitDerVerkehrsteilnehmer}
 
@@ -374,10 +372,12 @@ grenzüberschreitenden Verbreitung automobiler und digitaler Technologien die Ko
 Dokumentationspflichten zu gewährleisten.\grqq\mbox{~\cite[S. 13]{ek}}
 \end{quote}
 
-Dieses Postulat, nämlich die Notwendigkeit zum Führen eines standardisierten \glqq Logbuchs\grqq\ im Fahrzeug, knüpft unmittelbar an 
-\ref{Produkthaftung}, also das Thema \textit{Produkthaftung}, an. Auf internationaler Ebene ist bei der Etablierung entsprechender Standards 
-und Zertifizierungsstellen mit den üblichen Friktionen und Verzögerungen zu rechnen, da nicht nur Hersteller-, sondern auch Länder- oder 
-sonstige regionale Interessen berücksichtigt und in Einklang gebracht werden müssen.
+Dieses Postulat, nämlich die Notwendigkeit zum Führen eines standardisierten \glqq Logbuchs\grqq\ im Fahrzeug zur Beweissicherung im Falle eines Unfalles, 
+knüpft unmittelbar an \ref{Produkthaftung}, also das Thema \textit{Produkthaftung}, an. Auf internationaler Ebene ist bei der Etablierung entsprechender 
+Standards und Zertifizierungsstellen mit den üblichen Friktionen und Verzögerungen zu rechnen, da nicht nur Hersteller-, sondern auch Länder- oder 
+sonstige regionale Interessen berücksichtigt und in Einklang gebracht werden müssen. Darüber hinaus dürfte sich nicht nur von Land zu Land, sondern auch
+regional die Ausstattung mit automatisierten Fahrdiensten drastisch unterscheiden. Diese unterschiedlichen Fahrdienste müssten von einem Fahrzeug bei einer
+Langstreckenfahrt nicht nur auf technischer Ebene genutzt werden können, sondern deren Nutzung müsste auch zeitlich detailliert protokolliert werden.
 
 \subsection{Vermeidung abrupter Übergabevorgänge} \label{VermeidungAbrupterUebergabevorgaenge}
 
@@ -500,8 +500,11 @@ August 2017, \url{https://www.bmvi.de/SharedDocs/DE/Publikationen/DG/eigentumsor
 
 \bibitem{ho} G. Hornung, Verfügungsrechte an fahrzeugbezogenen Daten, in \textit{Datenschutz und Datensicherheit 2015}, \mbox{S. 359--366}
 
-\bibitem{zeit1} D. H. Lamparter, Wer hat das Kommando?, in \textit{Die Zeit Nr. 9/2015}, \\
+\bibitem{zeit1} D.\,H. Lamparter, Wer hat das Kommando?, in \textit{Die Zeit Nr. 9/2015}, \\
 \url{https://www.zeit.de/2015/09/autonomes-fahren-assistenzsystem-autotechnik/komplettansicht}, Stand Januar 2019
+
+\bibitem{pr} R.\,D. Precht, Maschinen ohne Moral, in \textit{Der Spiegel Nr. 48/2018} vom 24.11.2018, \mbox{S. 78--79},
+\url{http://www.spiegel.de/plus/richard-david-precht-vom-irrsinn-maschinen-ethik-einzuprogrammieren-a-00000000-0002-0001-0000-000160960485}, Stand Januar 2019
 
 \bibitem{dot} U.\,S. Department of Transportation (DOT), Preparing for the Future of Transportation: Automated Vehicle 3.0, 2018,
 \url{https://www.transportation.gov/av}, Stand Januar 2019
