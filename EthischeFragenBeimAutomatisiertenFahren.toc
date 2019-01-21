@@ -5,8 +5,8 @@
 \contentsline {subsection}{\numberline {2.2}Vorrang des Schutzes von Menschen}{2}{subsection.7}% 
 \contentsline {subsection}{\numberline {2.3}Gew\IeC {\"a}hrleistungsverantwortung der \IeC {\"o}ffentlichen Hand}{2}{subsection.8}% 
 \contentsline {subsection}{\numberline {2.4}Entscheidungsfreiheit des Einzelnen}{3}{subsection.9}% 
-\contentsline {subsection}{\numberline {2.5}Unfallvermeidung}{4}{subsection.10}% 
-\contentsline {subsection}{\numberline {2.6}Abw\IeC {\"a}gungen zur Einsatzpflicht}{5}{subsection.11}% 
+\contentsline {subsection}{\numberline {2.5}Unfallvermeidung}{3}{subsection.10}% 
+\contentsline {subsection}{\numberline {2.6}Abw\IeC {\"a}gungen zur Einsatzpflicht}{4}{subsection.11}% 
 \contentsline {subsection}{\numberline {2.7}Priorit\IeC {\"a}t des Schutzes menschlichen Lebens}{5}{subsection.12}% 
 \contentsline {subsection}{\numberline {2.8}Keine Normierbarkeit dilemmatischer Entscheidungen}{6}{subsection.13}% 
 \contentsline {subsection}{\numberline {2.9}Verbot der Qualifizierung von Opfern nach pers\IeC {\"o}nlichen Merkmalen}{7}{subsection.14}% 
