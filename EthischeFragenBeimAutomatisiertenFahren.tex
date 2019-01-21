@@ -50,15 +50,15 @@ und vernetzten Fahrzeugverkehr aufgeschrieben sind. Diese Regeln sind die These 
 \mainmatter
 
 \cleardoublepage
-\section{Vorstellung und Diskussion der ethischen Regeln} \label{VorstellungUndDiskussionDerEthischenRegeln}
+\section{Vorstellung und Kommentierung der Ethik-Regeln} \label{VorstellungUndKommentierungDerEthikRegeln}
 
-Im nachfolgenden Hauptteil dieser Ausarbeitung werden jeweils, die von der Kommission formulierten ethischen Regeln zitiert und im Anschluss einer kritischen 
+Im nachfolgenden Hauptteil dieser Ausarbeitung werden jeweils die von der Kommission formulierten ethischen Regeln zitiert und im Anschluss einer kritischen 
 Würdigung hinsichtlich ihrer technischen Implementierbarkeit und der Kompatibilität mit heutigen gesellschaftlichen Normen unterzogen. 
 Diese fällt i.\,d.\,R. wegen der gebotenen Kürze knapp aus und ist selbstverständlich
 stark von der subjektiven Einschätzung der Autoren geprägt. Naturgemäß wirft sie eher weiterführende Fragen auf, als dass sie Antworten lieferte.\\
 
 Bevor wir uns den Regeln im Einzelnen zuwenden, wollen wir kurz die Automatisierungsgrade beim automatisierten Fahren klären. Der Verband der 
-Automobilindustrie (VDA)~\cite{vda} systematisiert diese so, wie in \autoref{figure:Automatisierungsgrade} dargestellt.\\
+Automobilindustrie (VDA)~\cite{vda} systematisiert diese so wie in \autoref{figure:Automatisierungsgrade} dargestellt.\\
 
 \begin{figure}[H]
 \centering
@@ -305,7 +305,12 @@ digitalen Verkehrsinfrastruktur ist ethisch bedenklich, wenn und soweit sie Risi
 und der Manipulation der Fahrzeugsteuerung nicht sicher auszuschließen vermag.\grqq\mbox{~\cite[S. 12]{ek}}
 \end{quote}
 
-
+Wie bereits erwähnt, werden bei dem derzeitigen Grad der Automatisierung fast ausschließlich vom Fahrzeug selbst generierte Daten verwendet.
+Dies wird sich aber ändern, sobald anspruchsvollere Systeme den gesamten Verkehr orchestrieren und eine ausgedehnte Car-to-Car und 
+Car-to-Infrastructure-Kommunikation erforderlich machen. Besondere Bedeutung haben in diesem Kontext die \textit{Cooperative Awareness Messages (CAM)},
+Status-Meldungen, die jedes Fahrzeug quasi-permanent aussendet und die von Leitzentralen ausgewertet werden, um die aktuelle Verkehrlage abzubilden.
+Obwohl CAMs verschlüsselt übertragen und pseudonymisiert werden, ist trotzdem die Erstellung von Bewegungsprofilen zumindest prinzipiell möglich.
+Daher muss es für einen Fahrzeugführer möglich sein, einzustellen, wann und in welchem Umfang CAMs gesendet werden.
 
 \subsection{Erhalt des Vertrauens in den Straßenverkehr} \label{ErhaltDesVertrauensInDenStrassenverkehr}
 
@@ -316,13 +321,11 @@ IT-Systems oder auch immanente Systemschwächen nicht
 zu solchen Schäden führen, die das Vertrauen in den Straßenverkehr nachhaltig erschüttern.\grqq\mbox{~\cite[S. 12]{ek}}
 \end{quote}
 
-Die Frage ist hier, welche Komponenten des Gesamtsystems anfällig gegenüber böswilligen IT-Angriffen von außen sind. Dies sind u.\,E. weniger 
-die öffentlichen Dienste oder Leitsysteme, da hier zwar Fehlfunktionen oder Ausfälle möglicherweise zu Verkehrschaos, nicht aber unmittelbar zu 
-Gefahrensituationen führen. Anders verhält es sich
-mit den Kommunikationssystemen der Fahrzeuge selbst. Sämtliche Car-to-Car- und Device-to-Car-Kommunikation\footnote{Mit \textit{Device-to-Car-Kommunikation} 
-ist hier die Kommunikation zwischen dem Fahrzeug und einem Handheld-Device im Besitz des Fahrers, z.\,B. einem Mobiltelefon, beispielsweise zu dessen
-Identifikation, gemeint. Diese Art der Kommunikation wird derzeit unter dem Industriestandard \textit{Bluetooth}~\cite{bt} ausgeführt.} dürfte daher ausschließlich verschlüsselt 
-und sicher authentifiziert stattfinden, damit eine unerwünschte Einflußnahme Dritter auf ein bestimmtes Fahrzeug ausgeschlossen ist.
+Die Frage ist hier, welche Komponenten des Gesamtsystems anfällig gegenüber böswilligen IT-Angriffen von außen sind und welcher Natur potentielle Angriffe
+wären. Dies sind auf der einen Seite die öffentlichen Verkehrs-Dienste und -Leitsysteme, die natürlich gegen Angriffe von außen abgesichert werden müssen. 
+Dies ist aber schon heute der Fall, sonst wäre jede Ampelanlage an einer größeren Verkehrskreuzung eine potentiell tödliche Gefahrenquelle. Auf der anderen Seite kommen als potentielle Angriffspunkte die Kommunikations- und Sensorsysteme der einzelnen Fahrzeuge selbst in Betracht. Sämtliche Car-to-Car- und Car-to-Infrastructure-Kommunikation dürfte daher ausschließlich verschlüsselt und sicher authentifiziert stattfinden, damit eine unerwünschte Einflußnahme Dritter auf ein bestimmtes Fahrzeug ausgeschlossen ist. Darüber hinaus muss sichergestellt werden, dass die Fahrzeug-Sensorik sicher gegenüber Manipulationen von außen ist, 
+im Besonderen dahingehend, dass dem Fahrzeug eine real gar nicht existierende Verkehrssituation \glqq vorgespiegelt\grqq\ wird und damit ein potentiell 
+gefährliches Fehlverhalten provoziert würde.
 
 \subsection{Datenhoheit der Verkehrsteilnehmer} \label{DatenhoheitDerVerkehrsteilnehmer}
 
@@ -369,10 +372,12 @@ grenzüberschreitenden Verbreitung automobiler und digitaler Technologien die Ko
 Dokumentationspflichten zu gewährleisten.\grqq\mbox{~\cite[S. 13]{ek}}
 \end{quote}
 
-Dieses Postulat, nämlich die Notwendigkeit zum Führen eines standardisierten \glqq Logbuchs\grqq\ im Fahrzeug, knüpft unmittelbar an 
-\ref{Produkthaftung}, also das Thema \textit{Produkthaftung}, an. Auf internationaler Ebene ist bei der Etablierung entsprechender Standards 
-und Zertifizierungsstellen mit den üblichen Friktionen und Verzögerungen zu rechnen, da nicht nur Hersteller-, sondern auch Länder- oder 
-sonstige regionale Interessen berücksichtigt und in Einklang gebracht werden müssen.
+Dieses Postulat, nämlich die Notwendigkeit zum Führen eines standardisierten \glqq Logbuchs\grqq\ im Fahrzeug zur Beweissicherung im Falle eines Unfalles, 
+knüpft unmittelbar an \ref{Produkthaftung}, also das Thema \textit{Produkthaftung}, an. Auf internationaler Ebene ist bei der Etablierung entsprechender 
+Standards und Zertifizierungsstellen mit den üblichen Friktionen und Verzögerungen zu rechnen, da nicht nur Hersteller-, sondern auch Länder- oder 
+sonstige regionale Interessen berücksichtigt und in Einklang gebracht werden müssen. Darüber hinaus dürfte sich nicht nur von Land zu Land, sondern auch
+regional die Ausstattung mit automatisierten Fahrdiensten drastisch unterscheiden. Diese unterschiedlichen Fahrdienste müssten von einem Fahrzeug bei einer
+Langstreckenfahrt nicht nur auf technischer Ebene genutzt werden können, sondern deren Nutzung müsste auch zeitlich detailliert protokolliert werden.
 
 \subsection{Vermeidung abrupter Übergabevorgänge} \label{VermeidungAbrupterUebergabevorgaenge}
 
@@ -463,10 +468,56 @@ und Zulassung dieser Technologien noch in der kommenden Dekade.\\
 \label{figure:ZeitschieneAutomatisierungsgrade}
 \end{figure}
 
+Die höchsten Automatisierungsgrade für das automatisierte Fahren, das \textit{vollautomatisierte} und das \textit{fahrerlose} Fahren, stehen also unmittelbar
+vor der Einführung für den Testbetrieb, wobei dieser Trend weltweit zu beobachten ist.
+Mit ihrem Papier~\cite{ek} hat die Ethikkommision die grundsätzlichen \glqq Leitplanken\grqq\ festgelegt, die bei der Implementierung des automatisierten Fahrens
+beachtet werden sollten. Diese sind zu einem großen Teil unmittelbar einleuchtend, und als ein Angehöriger unseres westlichen Kulturkreises ist man grundsätzlich
+intuitiv geneigt, ihnen vorbehaltlos zuzustimmen. Die Bundesregierung fasst in ihrem Maßnahmenplan~\cite{bmvi5} die Herausforderungen wie folgt zusammen:
+
+\begin{quote}
+\glqq
+Die Zulassung automatisierter und vernetzter Fahrsysteme ist unter Berücksichtigung von Sicherheit, menschlicher Würde, persönlicher Entscheidungsfreiheit und Datenautonomie ethisch verantwortbar und kann gesellschaftlich und ethisch geboten sein, wenn damit vorhandene Potenziale der Schadensminimierung genutzt werden können. Der Schutz von Menschen muss Vorrang vor allen anderen Nützlichkeitserwägungen haben.\grqq\mbox{~\cite[S. 3]{bmvi5}}
+\end{quote}
+
+Es gibt jedoch zwei Problembereiche, die noch weitgehender diskutiert werden müssen: Der Ausschluss der totalen Überwachung und die 
+Entscheidungsfähigkeit von Algorithmen in dilemmatischen Situationen.\\
+
+Welche Daten der einzelne Fahrer der öffentlichen Hand oder seinen Vertragspartnern zur Verfügung stellen möchte, liegt grundsätzlich in dessen eigenem
+Ermessen. Zumindest für das vollautomatisierte Fahren ist aber ein gewisses Mindestmaß an permanentem Datenaustausch unabdingbar. So werden 
+Fahrzeugpositionen und damit auch die der Fahrer und Passagiere trotz Pseudonymisierung ähnlich wie derzeit schon bei der Mobilfunkortung nachvollziehbar 
+und beispielsweise für Strafverfolgungsbehörden verfügbar sein. Ob dies gesellschaftlich vertretbar ist, muss in einem breiten Diskurs geklärt werden.  
+Ein Blick nach China, wo derzeit ein IT-basiertes Punktesystem zur totalen Sozialkontrolle der Bürger etabliert wird~\cite{df}, zeigt, dass der noch akzeptable 
+Grad sozialer Kontrolle je nach Kulturkreis offenbar sehr unterschiedlich ausgeprägt ist.\\
+
+Die zweite ungeklärte Frage ist, inwieweit \glqq Moral\grqq\ bzw. \glqq Ethik\grqq\ grundsätzlich in Algorithmen implementierbar ist. Es macht eben einen grundlegenden
+Unterschied, ob ein Unfallverursacher vor Gericht seine Entscheidung verantworten muss, in einem konkreten Fall den möglichen Tod oder die Verletzung eines älteren Rollstuhlfahrers gegenüber einer Gruppe von Kindern in Kauf genommen zu haben, oder ob ihm ein Algorithmus diese Entscheidung abnimmt. Wäre dies in der Software 
+implementiert - einmal ganz abgesehen von den technischen Problemen - würde eben doch eine automatisierte Qualifizierung von Menschen stattfinden, die ganz 
+klar der neunten Forderung der Ethik-Kommission widerspräche. Der Philosoph Richard D. Precht hat in einem nicht ganz von Polemik freien Artikel im \textit{Spiegel}
+~\cite{pr} den Sachverhalt auf den folgenden Punkt gebracht:
+
+\begin{quote}
+\glqq
+Dass der Code für jedes Problem eine Lösung haben soll, macht ihn nicht moralisch besser, sondern schlechter. Denn wem würde man eher verzeihen? Dem Fahrer,
+der in seiner Not, um drei alte Damen zu schützen, versehentlich ein Kind überfährt? Oder einem bewusst einprogrammierten Ablauf, der den Damen einen
+geringeren Lebenswert als dem Kind zuspricht, sich allerdings korrigiert, wenn er erkennt, dass das Kind, an äußeren Zeichen ablesbar, höchstwahrscheinlich
+Leukämie hat?\grqq\mbox{~\cite[S. 79]{pr}}
+\end{quote}
+
+\noindent Precht plädiert daher für eine streng regelbasierte Lösung des Problems:
+
+\begin{quote}
+\glqq
+Die erste Regel dürfte sein, den Insassen zu schützen. Wer steigt schon in ein Fahrzeug, das einen im Zweifelsfall opfert? Zweitens nach rechts ausweichen; drittens,
+wenn das nicht geht, nach links. Das Fahrzeug muss dafür keine Gesichter erkennen, lediglich Menschen von Gegenständen unterscheiden. Mag sein, dass das Auto
+dadurch vielleicht einmal die \glq falsche\grq\ Entscheidung trifft. Doch ist das nicht hundertmal besser, als ein programmiertes Abschätzen menschlichen Lebenswerts?\grqq\mbox{~\cite[S. 79]{pr}}
+\end{quote}
+
+\noindent Die Zukunft wird zeigen, wie wir mit diesem grundsätzlichen Problem umgehen.
 
 \newpage
 
 \cleardoublepage
+
 \begin{thebibliography}{99}
 \addcontentsline{toc}{section}{Literatur}
 
@@ -493,10 +544,19 @@ November 2017, \url{https://www.bmvi.de/SharedDocs/DE/Publikationen/DG/automatis
 \bibitem{bmvi4} BMVI, \glqq Eigentumsordnung\grqq\ für Mobilitätsdaten? Eine Studie aus technischer, ökonomischer und rechtlicher Perspektive,
 August 2017, \url{https://www.bmvi.de/SharedDocs/DE/Publikationen/DG/eigentumsordnung-mobilitaetsdaten.html}, Stand Januar 2019
 
+\bibitem{bmvi5} BMVI, Maßnahmenplan der Bundesregierung zum Bericht der Ethik-Kommission Automatisiertes und Vernetztes Fahren (Ethik-Regeln für
+Fahrcomputer), September 2017, \url{https://www.bmvi.de/SharedDocs/DE/Publikationen/DG/massnahmenplan-zum-bericht-der-ethikkommission-avf.html}, 
+Stand Januar 2019
+
+\bibitem{df} Deutschlandfunk, Sozialkredit-System, China auf dem Weg in die IT-Diktatur, 09.09.2017, \url{https://www.deutschlandfunk.de/sozialkredit-system-china-auf-dem-weg-in-die-it-diktatur.724.de.html?dram:article_id=395440}, Stand Januar 2019
+
 \bibitem{ho} G. Hornung, Verfügungsrechte an fahrzeugbezogenen Daten, in \textit{Datenschutz und Datensicherheit 2015}, \mbox{S. 359--366}
 
-\bibitem{zeit1} D. H. Lamparter, Wer hat das Kommando?, in \textit{Die Zeit Nr. 9/2015}, \\
+\bibitem{zeit1} D.\,H. Lamparter, Wer hat das Kommando?, in \textit{Die Zeit Nr. 9/2015}, \\
 \url{https://www.zeit.de/2015/09/autonomes-fahren-assistenzsystem-autotechnik/komplettansicht}, Stand Januar 2019
+
+\bibitem{pr} R.\,D. Precht, Maschinen ohne Moral, in \textit{Der Spiegel Nr. 48/2018} vom 24.11.2018, \mbox{S. 78--79},
+\url{http://www.spiegel.de/plus/richard-david-precht-vom-irrsinn-maschinen-ethik-einzuprogrammieren-a-00000000-0002-0001-0000-000160960485}, Stand Januar 2019
 
 \bibitem{dot} U.\,S. Department of Transportation (DOT), Preparing for the Future of Transportation: Automated Vehicle 3.0, 2018,
 \url{https://www.transportation.gov/av}, Stand Januar 2019
